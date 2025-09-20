@@ -1,6 +1,5 @@
 import random
 
-
 class DATA:
     name = 'Денис'
     password = '413121'
