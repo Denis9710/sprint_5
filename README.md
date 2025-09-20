@@ -67,7 +67,7 @@ bash
 python -m pytest test/ -v -s
 3. Запуск конкретного теста
 bash
-python -m pytest test/test_1_successful_registration.py -v -s
+python -m pytest test/сhecking_registration.py -v -s
 4. Запуск с отчетом
 bash
 python -m pytest test/ -v --html=report.html 
