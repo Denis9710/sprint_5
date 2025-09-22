@@ -12,22 +12,18 @@
 ## 📁 Структура проекта
 qa_Sprint_5/
 ├── test/ # Папка с автотестами
-│ ├── test_1_сhecking_registration.py
-│ ├── test_2_registration_none_password.py
-│ ├── test_3_registration_none_name.py
-│ ├── test_4_registration_none_email.py
-│ ├── test_5_password_len_errors.py
-│ ├── test_6_registrations_with_duplicate.py
+│ ├── test_1_successful_registration.py
+│ ├── test_2_none_password.py
+│ ├── test_3_none_name.py
+│ ├── test_4_none_email.py
+│ ├── test_5_invalid_password_len_5.py
+│ ├── test_6_registration_with_the_same_data.py
 │ ├── test_7_invalid_email.py
-│ ├── test_8_entrance_button_in_form_registration.py
-│ ├── test_9_entrance_button_in_form_restore_pass.py
-│ ├── test_10_button_log_in.py
-│ ├── test_11_entrance_button_personal_account.py
-│ ├── test_12_transition_from_your_personal_account_to_the_designer.py
-│ ├── test_13_transition_personal_account.py
-│ ├── test_14_Click_on_the_Stellar_Burgers_logo_to_access_the_website.py
-│ ├── test_15_testing_exit_button.py
-│ └── test_16_constructor.py
+│ ├── test_8_entrance.py
+│ ├── test_9_transition.py
+│ ├── test_10_testing_exit_button.py
+│ └── test_11_constructor.py
+│
 ├── README.md # Документация
 ├── locators.py # Локаторы элементов
 ├── .pytest_cache/ # Кэш Pytest
